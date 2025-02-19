@@ -1,0 +1,53 @@
+++++++++++++++++++++++++++++++++++++++
+LAB Practice Programming Assignment-2
+++++++++++++++++++++++++++++++++++++++
+------------------------------------------
+Assignment on Multi-Layer Perceptron (MLP)
+------------------------------------------
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------------------
+Problem-1: MLP to solve a Binary Classification problem
+------------------------------------------------------------------------------
+Build and train a MLP to predict the IRIS flower categories from the feature measures of petal and sepal. Use IRIS dataset. Take only TWO classes and consider the problem as Binary Classification. 
+
+# Perform the experiment by taking Setosa and Versicolor classes.
+# Perform feature standardization/normalization
+# Perform a train/test split of 70/30.
+# Print classification metrics on the test data (accuracy, confusion matrix, precision, recall, f1-score).
+# Print the trained model parameters.
+
+# Run the experiments for multiple epochs and check the effect of more/less training on the final outcome (e.g. model accuracy on test data)
+
+
+# Redo the experiment by considering Versicolor and Verginica classes.
+Check the role of the activation function and the selected thresholds as you change the target labels.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+------------------------------------------------------------------------------
+Problem-2: MLP to solve a Multi-class Classification problem
+------------------------------------------------------------------------------
+Build and train a MLP to predict the IRIS flower categories from the feature measures of petal and sepal. Use IRIS dataset. Take ALL the classes. 
+
+# Perform feature standardization/normalization
+# Perform a train/test split of 70/30.
+# Print classification metrics on the test data (accuracy, confusion matrix, precision, recall, f1-score).
+# Print the trained model parameters.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+--------------------------------------------------------------------------
+Problem-3 MLP to solve a Regression problem
+--------------------------------------------------------------------------
+Build and train a MLP to predict the "petal length" of IRIS flowers from the other three feature measures (e.g. petal width, length and width of the sepal). 
+
+# Perform feature standardization/normalization
+# Perform a train/test split of 70/30.
+# Print regression metrics on the test data (R^2 or MSE).
+# Print the trained model parameters.
+
+# Run the experiments/training for multiple epochs and check the effect of more/less training on the final outcome (e.g. MSE scores on test data).
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

@@ -1,0 +1,28 @@
+++++++++++++++++++++++++++++++++++++++
+LAB Practice Programming Assignment-3
+++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------
+Image Classification with MLP & Convolutional Neural Network (CNN)
+------------------------------------------------------------------
+
+Consider the following dataset.
+
+Fashion-MNIST Dataset - Fashion Items Classification (Multiclass Classification)
+This is a dataset of 60,000 28x28 grayscale images of 10 fashion categories, along with a test set of 10,000 images.
+
+Data source in Keras: https://keras.io/api/datasets/fashion_mnist/
+
+
+------------------------------------------------------------------------------
+Problem-1: Multi-class Classification with MLP
+------------------------------------------------------------------------------
+Build and train a MLP to classify the images of the Fashion-MNIST dataset.
+
+
+------------------------------------------------------------------------------
+Problem-2: Multi-class Classification with CNN
+------------------------------------------------------------------------------
+Build and train a CNN to classify the images of the Fashion-MNIST dataset.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

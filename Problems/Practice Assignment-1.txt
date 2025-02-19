@@ -1,0 +1,23 @@
+----------------------------------- 
+Practice Programming Assignment - 1
+-----------------------------------
+
+MNIST - Handwritten Digits Image Classification with an MLP using Keras
+
+-----------------
+Problem Statement
+-----------------
+Implement a multi-layer perceptron (MLP) using Keras to classify handwritten digits from the MNIST dataset. Your solution should load and preprocess the MNIST data, build an MLP with at least one hidden layer, train the model, and evaluate its performance on the test set. 
+
+Submit your well-commented code and a brief summary of your results (ipython notebook).
+
+-------------------
+Dataset Description
+-------------------
+MNIST Dataset - Digits Classification (Multiclass Classification)
+This is a dataset of 60,000 28x28 grayscale images of the 10 digits, along with a test set of 10,000 images.
+
+Data source in Keras: https://keras.io/api/datasets/mnist/
+
+Detailed description to be found here >> http://yann.lecun.com/exdb/mnist/
+

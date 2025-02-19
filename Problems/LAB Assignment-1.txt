@@ -1,0 +1,37 @@
+++++++++++++++++++++++++++++++++++++++
+LAB Practice Programming Assignment-1
+++++++++++++++++++++++++++++++++++++++
+
+------------------------
+Assignment on Perceptron
+------------------------
+
+Problem-1 [ANN to solve a Classification problem - on structured tabular data]
+------------------------------------------------------------------------------
+Build and train a Perceptron to predict the IRIS flower categories from the feature measures of petal and sepal. Use IRIS dataset. Take only two classes and consider the problem as Binary Classification. 
+
+# Perform the experiment by taking Setosa and Versicolor classes.
+# Perform feature standardization/normalization
+# Perform a train/test split of 70/30.
+# Print classification metrics on the test data (accuracy, confusion matrix, precision, recall, f1-score).
+# Print the trained model parameters.
+
+# Run the experiments for multiple epochs and check the effect of more/less training on the final outcome (e.g. model accuracy on test data)
+
+
+# Redo the experiment by considering Versicolor and Verginica classes.
+Check the role of the activation function and the selected thresholds as you change the target labels.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Problem-2 [ANN to solve a Regression problem - on structured tabular data]
+--------------------------------------------------------------------------
+Build and train a Perceptron to predict the "petal length" of IRIS flowers from the other three feature measures (e.g. petal width, length and width of the sepal). 
+
+# Perform feature standardization/normalization
+# Perform a train/test split of 70/30.
+# Print regression metrics on the test data (R^2 or MSE).
+# Print the trained model parameters.
+
+# Run the experiments/training for multiple epochs and check the effect of more/less training on the final outcome (e.g. MSE scores on test data).
+
