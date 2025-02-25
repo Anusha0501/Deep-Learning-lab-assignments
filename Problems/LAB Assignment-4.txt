@@ -1,0 +1,19 @@
+++++++++++++++++++++++++++++++++++++++
+LAB Practice Programming Assignment-4
+++++++++++++++++++++++++++++++++++++++
+
+
+Solve the multiclass image classification problem using the CIFAR-10 dataset. 
+Perform the following analysis:
+
+1. Build a CNN to solve the problem (typical Deep Learning approach that uses a feed-forward MLP at the end of the CNN layers to classify the images).
+
+2. Extract convolutional features and train a conventional machine learning classifier (e.g. SVM or Logistic Regression).
+You need to first get the training and test data ready for this experiment. 
+
+3. Compare the performances of the models built in step 1 and 2.
+(note that for the sake of comparison, you need to have exactly the same images in the training and test sets).
+
+
+Check the following link to know about the dataset:
+https://github.com/soharabhossain/Deep_Learning/blob/main/Dataset.md
