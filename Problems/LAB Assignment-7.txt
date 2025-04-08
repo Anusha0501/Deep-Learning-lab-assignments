@@ -1,0 +1,40 @@
+++++++++++++++++++++++++++++++++++++++
+LAB Practice Programming Assignment-7
+++++++++++++++++++++++++++++++++++++++
+
+Transfer Learning Experiments with CNN 
+---------------------------------------
+
+1. Transfer Learning - Use a pre-trained CNN as a Feature Extractor
+
+A list of such models available in Keras can be found here >>
+https://keras.io/api/applications/
+
+You may import all the models from the following Keras module
+keras.applications
+
+Use CNNs pre-trained on the ImageNet dataset. Use the following pretrained models - VGG16, VGG19, ResNet50, ResNet101, MobileNetV2, EfficientNetB2.
+
+Form your own dataset containing diverse images (human, animals, vehicle, buildings, natural scenes - mountains, river, forest). Collect atleast 40/50 images per class.
+Look for datasets from other sources like Intel Image Classification Dataset >> 
+https://www.kaggle.com/datasets/puneet6060/intel-image-classification
+
+Split your data into train and test set.
+
+i. Pass the images through the pre-trained CNNs and extract features from the suitable layers of these models and form the feature vectors.
+
+ii. Train separate Multi-layer Perceptron (MLP) classifiers using these vectors. Use the same model architecture for the MLP and train it for the same number of epochs with exact same configurations for all the hyperparameters (use training data).
+
+iii. Make a comparison table of accuracies and the final losses for all the MLPs (on the training data); also compare the accuracies of the models using the test data.
+
+--------------------------------------------------------------
+
+2. Transfer Learning with Fine-tuning 
+
+i. Build a CNN to classify the MNIST-Digits classification dataset (Task-1).
+
+ii. Use this pre-trained CNN to classify the Fashion-MNIST dataset (Task-2). 
+You need to apply Transfer Learning using finetuning - add a new head to the pre-trained model (and if required, add new CNN layers for feature extraction) and re-train the newly added layers with the new data by freezing the weights of the pre-trained model).
+
+iii. Test the accuracy of the new model on the test data.
+

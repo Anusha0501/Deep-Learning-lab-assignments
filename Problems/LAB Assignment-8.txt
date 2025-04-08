@@ -1,0 +1,26 @@
+++++++++++++++++++++++++++++++++++++++
+LAB Practice Programming Assignment-8
+++++++++++++++++++++++++++++++++++++++
+
+Sequence Processing with RNN 
+-------------------------------
+
+1. Solve a numeric sequence processing problem using Vanilla RNN.
+
+i. Generate data synthetically and split it into training and tes set. Train the RNN model with the training data. Evaluate the model on the test data. Summarize model architecture and training metrics (progress of loss/error for different epochs).
+
+
+2. Build and train a Recurrent Neural Network (RNN) using Keras to predict the next character in a given sequence of text. This task helps in understanding how RNNs can learn temporal patterns from sequential data.
+
+Use a small text dataset (you may use a sample from nltk.corpus.gutenberg or any .txt file).
+
+
+3. Download Amazon product review dataset for sentiment classification.
+Build and train a LSTM model to classify the review as positive/negative.
+
+
+
+
+
+--------------------------------------------------------------
+
